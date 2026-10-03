@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #cdd554;
+    background: #ff7350;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2915,6 +2915,24 @@ header.header {
   line-height: 2;
 }
 .post-body p {
-  margin-block-start: 0.8em !important;
-  margin-block-end: 0.8em !important;
+  margin-block-start: 0.5em !important;
+  margin-block-end: 0.5em !important;
+}
+.post-body ul {
+  padding-left: 1.5em !important;
+  list-style-type: disc !important;
+}
+.post-body ol {
+  padding-left: 1.5em !important;
+  list-style-type: decimal !important;
+}
+.post-body ul ul {
+  list-style-type: circle !important;
+}
+.post-body ul ul ul {
+  list-style-type: square !important;
+}
+.post-body ol ol,
+.post-body ol ol ol {
+  list-style-type: decimal !important;
 }
